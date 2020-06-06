@@ -1,0 +1,7 @@
+x Create eui-in.txt with row eui, key from TTN
+x Create  eui-out.txt with copied eui section from mbed_app.json for reference during development
+x Create/test the python script
+x Crete README.MD
+Create local GIT repo
+Create Remote GIR repo and push
+Test with an n-PRO-40 node

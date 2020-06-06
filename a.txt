@@ -1,0 +1,54 @@
+Designator,Comment,Parameter 1,nBlocksParameter1,Parameter 2,nBlocksParameter2,Parameter 3,nBlocksParameter3,Parameter 4,nBlocksParameter4,Parameter 5,nBlocksParameter5,Parameter 6,nBlocksParameter6,Parameter 7,nBlocksParameter7,ComponentLink1URL
+
+"N1","INA219","address","90","pinSDA","p28","pinSCL","p27","shuntResistor","0.1","","","","","","","url,bitbucket.org/fernandocosentino/nblocks_lm75.git"
+"N2","StringPack","formatString","Value: %d\n","","","","","","","","","","","","","https://bitbucket.org/fernandocosentino/nblocks_stringpack.git"
+"N3","SimpleSerial","pinTX","USBTX","pinRX","USBRX","","","","","","","","","","","https://bitbucket.org/fernandocosentino/nblocks_stringpack.git"
+"N4","SimpleSerial","pinTX","USBTX","pinRX","USBRX","","","","","","","","","","","https://bitbucket.org/fernandocosentino/nblocks_stringpack.git"
+"N5","StringPack","formatString","Value: %d\n","","","","","","","","","","","","","https://bitbucket.org/fernandocosentino/nblocks_stringpack.git"
+"N6","Ticker","period(ms)","1000","","","","","","","","","","","","","https://bitbucket.org/fernandocosentino/nblocks_ticker.git"
+"N100","LM75","address","90","pinSDA","p28","pinSCL","p27","alarmMIN","75.0","alarmMAX","80.0","ComparatorPolarity","0","scale","1","bitbucket.org/fernandocosentino/nblocks_lm75.git"
+
+scanning components and wirelist start
+---
+components at:  30
+wirelist   at:  371
+---
+INA219                          N1             
+StringPack                      N2             
+SimpleSerial                    N3             
+SimpleSerial                    N4             
+StringPack                      N5             
+Ticker                          N6             
+LM75                            N100   
+---
+scanning components
+34 40 67 68 --- INA219 1 -
+82 92 115 116 --- StringPack 2 -
+130 142 163 164 --- SimpleSerial 3 -
+178 190 211 212 --- SimpleSerial 4 -
+226 236 259 260 --- StringPack 5 -
+274 280 307 308 --- Ticker 6 -
+322 326 355 358 --- LM75 100 -
+scanning NETs
+
+-------------------------------- 
+464 471 = NetN1_1 | 
+480 482 = N1 | 491 492 = 1 | 514 519 = INPUT | 
+541 543 = N6 | 552 553 = 1 | 575 581 = OUTPUT | 
+602 606 = N100 | 613 614 = 1 | 636 641 = INPUT | 
+-------------------------------- 
+662 669 = NetN1_2 | 
+678 680 = N1 | 689 690 = 2 | 712 718 = OUTPUT | 
+739 741 = N5 | 750 751 = 1 | 773 778 = INPUT | 
+-------------------------------- 
+805 812 = NetN2_1 | 
+821 823 = N2 | 832 833 = 1 | 855 860 = INPUT | 
+886 890 = N100 | 897 898 = 2 | 920 926 = OUTPUT | 
+-------------------------------- 
+946 953 = NetN2_2 | 
+962 964 = N2 | 973 974 = 2 | 996 1002 = OUTPUT | 
+1027 1029 = N3 | 1038 1039 = 1 | 1061 1066 = INPUT | 
+-------------------------------- 
+1095 1102 = NetN4_1 | 
+1111 1113 = N4 | 1122 1123 = 1 | 1145 1150 = INPUT | 
+1178 1180 = N5 | 1189 1190 = 2 | 1212 1218 = OUTPUT |
