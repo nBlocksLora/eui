@@ -6,8 +6,13 @@
 ###### Background:
 [n-PRO-40](https://www.n-blocks.net/nmodules/doku.php?id=nblocks:n-pro-40) Is a LoRaWAN low power sensor node, based on Murata CMWX1ZZABZ LoRa module.  
 [mbed-os-example-lorawan](https://github.com/ARMmbed/mbed-os-example-lorawan) is an mbed-cli example, provided by ARM mbed, for a LoRaWAN node working with The Things Network (TTN).
-It is a common practice for mbed-cli, all system parameters to be included in the mbed_app.json.  
-lora.device-eui, lora.application-eui and lora.application-key from TTN console have to be manually translated to json format.  
+It is a common practice for mbed-cli, all system parameters to be included in the mbed_app.json.
+
+*  lora.device-eui
+*  lora.application-eui 
+*  lora.application-key 
+
+from TTN console have to be manually translated to json format.  
 
 
 ###### A more automated approach:  
